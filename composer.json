@@ -1,0 +1,32 @@
+{
+    "name": "ilyatos/laravel-api-response",
+    "license": "MIT",
+    "description": "Give it to me as JSON!",
+    "version": "0.1",
+    "authors": [
+        {
+            "name": "Ilya Goryachev",
+            "email": "ilyatos.gor@gmail.com"
+        }
+    ],
+    "require": {
+        "php": "^7.3",
+        "illuminate/http": "^6.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Ilyatos\\ApiResponse\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Ilyatos\\ApiResponse\\Tests\\": "tests/"
+        }
+    },
+    "require-dev": {
+        "friendsofphp/php-cs-fixer": "^2.16"
+    },
+    "scripts": {
+        "cs-fix": "./vendor/bin/php-cs-fixer fix app config routes tests --config=.php_cs --verbose"
+    }
+}
