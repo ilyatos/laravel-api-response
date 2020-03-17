@@ -1,5 +1,7 @@
 <?php
 
+declare(strict_types=1);
+
 namespace Ilyatos\ApiResponse\Contracts;
 
 use Illuminate\Http\JsonResponse;

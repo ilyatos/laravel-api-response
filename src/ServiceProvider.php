@@ -1,5 +1,7 @@
 <?php
 
+declare(strict_types=1);
+
 namespace Ilyatos\ApiResponse;
 
 use Illuminate\Support\ServiceProvider as BaseServiceProvider;
