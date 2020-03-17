@@ -47,6 +47,15 @@ final class ApiResponse implements Response
         return $this->makeJsonResponse(compact('message'), $status, $headers);
     }
 
+    /**
+     * Make JsonResponse instance
+     *
+     * @param mixed $data
+     * @param int   $status
+     * @param array $headers
+     *
+     * @return JsonResponse
+     */
     private function makeJsonResponse($data = null, int $status = 200, array $headers = []): JsonResponse
     {
         return new JsonResponse($data, $status, $headers);
