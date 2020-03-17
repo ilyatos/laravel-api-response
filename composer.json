@@ -24,9 +24,11 @@
         }
     },
     "require-dev": {
-        "friendsofphp/php-cs-fixer": "^2.16"
+        "friendsofphp/php-cs-fixer": "^2.16",
+        "psy/psysh": "@stable"
     },
     "scripts": {
-        "cs-fix": "./vendor/bin/php-cs-fixer fix src tests --config=.php_cs --verbose"
+        "cs-fix": "./vendor/bin/php-cs-fixer fix src tests --config=.php_cs --verbose",
+        "psysh": "./vendor/bin/psysh < /dev/tty"
     }
 }
