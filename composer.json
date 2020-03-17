@@ -27,6 +27,6 @@
         "friendsofphp/php-cs-fixer": "^2.16"
     },
     "scripts": {
-        "cs-fix": "./vendor/bin/php-cs-fixer fix app config routes tests --config=.php_cs --verbose"
+        "cs-fix": "./vendor/bin/php-cs-fixer fix src tests --config=.php_cs --verbose"
     }
 }
