@@ -13,6 +13,10 @@ _You don't need to register service provider manually_
 All you need to do is inject the `\Ilyatos\ApiResponse\Contracts\Response` interface into your controller/middleware/etc. constructor.\
 Just look at this nice example and everything will be clear for you:
 ```php
+<?php
+
+declare(strict_types=1);
+
 namespace App\Http\Controllers;
 
 use Illuminate\Http\JsonResponse;
