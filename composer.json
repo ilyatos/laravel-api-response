@@ -2,7 +2,12 @@
     "name": "ilyatos/laravel-api-response",
     "license": "MIT",
     "description": "Give it to me as JSON!",
-    "version": "0.1",
+    "keywords": [
+        "laravel",
+        "api",
+        "response",
+        "json"
+    ],
     "authors": [
         {
             "name": "Ilya Goryachev",
