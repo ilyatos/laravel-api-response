@@ -4,9 +4,9 @@ Welcome to simple wrapper of JsonResponse!
 
 ## Requirements
 
-- Laravel 6
+- Laravel 5/6/7
 
-_You don't need to register service provider manually_
+_You don't need to register the service provider manually._
 
 ## Usage example
 
